@@ -1,0 +1,126 @@
+/* Colors and fonts*/
+
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+}
+
+p {
+	font-family: fangsong;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+h1 {
+	color:#484538;
+	font-family: Fantasy;
+	font-weight: 500;
+	letter-spacing: 10px;
+	font-size:30px;
+}
+
+h2 {
+	font-family: Lucida Handwriting;
+	font-size: 14px ;
+	color: #231b1b;
+}
+
+h3 {
+	font-family: fantasy;
+	font-size: 22px;
+	color: #5B4044;
+	font-weight: lighter;
+
+}
+
+footer{
+	font-size: 15px;
+	font-family: georgia;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover{
+	color: black;
+}
+
+/* Custom design with class*/
+
+.container {
+	width: 700px;
+	margin:40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+
+	}
+}
+
+@media (max-width: 760) {
+	.container {
+		width: 600px;
+
+	}
+}
+
+.card-white {
+	background-color:#d4eac8;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+	border: 3px solid lightskyblue;
+
+}
+
+.img-circle {
+	border-radius:50%;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color:whitesmoke;
+	padding:15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue : hover {
+	background-color: #lightpink;
+	color:whitesmoke;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: lightpink;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#mindset p {
+	margin-bottom: 40px;
+}
